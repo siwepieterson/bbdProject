@@ -1,0 +1,61 @@
+body {
+    background-image: url("file:///home/busi/OQ6UTW0.jpg");
+   background-size: cover;
+   background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /*background-repeat: no-repeat;*/
+}
+/*
+.sidebar{
+    grid-area: sidebar;
+    background: linear-gradient(to right,
+    rgba(249,107,142,1),
+    rgba(218,103,230,1),
+    rgba(130,125,253,1));
+    justify-content: center; 
+}
+*/
+.login-box{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(59, 60, 109);
+}
+
+.login-box h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid #131030;
+    margin-bottom: 50px;
+    padding: 13px 0
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #131030
+}
+
+.textbox i{
+    width: 26px;
+    float:left;
+    text-align: center;
+}
+
+.bookingPage{
+    margin: 10;
+    padding: 6em;
+    text-align: center;
+    position: relative;
+    padding-left: 30%;
+    padding-right: 30%;
+    line-height: 1.6;
+}
